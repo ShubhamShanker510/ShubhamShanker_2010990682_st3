@@ -1,0 +1,114 @@
+.content {
+    margin-top: 54px;
+    }
+
+   .conatiner{
+    background: black;
+   }
+    .header {
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    }
+    .left-title {
+    width: 80px;
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    }
+    .right-title {
+    width: 150px;
+    text-align: right;
+    float: right;
+    color: #fff;
+    }
+    .quiz-body {
+    margin-top: 10%;
+    padding-bottom: 50px;
+    margin-left: 30%;
+    border:4px solid black;
+    width: 35%;
+    box-shadow: 10px 10px lightgray;
+    }
+    .option-block-container {
+    margin-top: 20px;
+    max-width: 420px;
+    padding: 10px;
+    }
+    .option-block {
+    padding: 10px;
+    border: 0.5px solid black;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+    }
+
+    .option-block:hover{
+        background-color: lightgray;
+        transition: all 0.9s ease-in-out;
+    }
+    .result-question {
+    font-weight: bold;
+    }
+    .c-wrong {
+    margin-left: 20px;
+    color: #ff0000;
+    }
+    .c-correct {
+    margin-left: 40px;
+    color:re;
+    }
+    .last-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    }
+    .res-header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    }
+
+    .bg_primary{
+        font-size: larger;
+        font-style:italic;
+        padding-top: 50px;
+        background-color: #ff0000;
+        color: black;
+        padding-bottom: 50px;
+        margin-left: 10px;
+    }
+
+    .previous_btn{
+        background-color:white;
+        color:red ;
+        font-size: large;
+        border-radius: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        box-shadow: 1px 2px lightblue;
+    }
+.previous_btn:hover{
+    background-color: red;
+    color: white;
+    }
+
+.next_btn{
+    background-color: red;
+    color:white;
+    font-size: large;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid red;
+    box-shadow: 1px 2px lightblue;
+
+}
+
+.next_btn:hover{
+    background-color: white;
+    color:red
+}

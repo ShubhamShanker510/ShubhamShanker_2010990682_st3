@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" href="register_css.css">
+    <script src="register.js"></script>
+</head>
+<body>
+	<form class = "box" action = "" method = "POST" id="form">
+		<fieldset>
+			<legend style="text-align: center" class = "res">Registration Form</legend>
+			<table>
+				<tr>
+					<td><label for="fname" class = "res"><b>Name :</b></label></td>
+					<td><input type="text" name="" id="fname" required></td>
+				</tr>
+                <tr></tr>
+				<tr>
+					<td><label for="fatherName" class = "res"><b>Father Name:</b></label></td>
+					<td><input type="text" name="" id="fatherName" required></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td><label for="mobileno" class = "res"><b>Mobile No:</b></label></td>
+					<td><input type="tel" name="" id="mobileno" minlength="10" maxlength="10" required></td>
+				</tr>
+                <tr></tr>
+				<tr>
+					<td><label for="email" class = "res"><b>Email-Id :</b></label></td>
+					<td><input type="email" name="" id="eMAil" required></td>
+				</tr>
+                <tr></tr>
+                <tr></tr>
+			</table>
+		<button type="button" onclick="onSubmit()" id="submit">START QUIZZ</button>
+	</fieldset>
+	</form>
+</body>
+</html>
